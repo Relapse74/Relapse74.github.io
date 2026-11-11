@@ -1,0 +1,28 @@
+body {
+      background-color: teal;
+}
+
+h2 {
+      background-color: aqua;
+      color: white;
+      font-size: large;
+      font-family: 'Times New Roman';
+      border: dashed;
+}
+
+p {
+      background-color: burlywood;
+      font-size: small;
+      color: white;
+      font-style: italic;
+}
+
+p::after {
+      content: "*";
+      color: green;
+}
+
+ul {
+      color: pink;
+      text-align: center;
+}
